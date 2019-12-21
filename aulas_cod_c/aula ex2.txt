@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main(){
+    //definindo uma variável
+    int a = 5, b;
+    
+    //imprimindo a variável "a"
+    printf("%d", a);
+    
+    //concatenando
+    printf("\n o valor da variavel a eh: %d", a);
+    
+    //mudando o valor de "a"
+    a = 15;
+    
+    //concatenando
+    printf("\n o valor da variavel a eh: %d", a);
+
+    //lendo valores
+    scanf("%d", &b);
+    
+    //concatenando
+    printf("\n o valor da variavel a eh: %d", b);
+    
+    //pula linhas
+    printf("\n");
+    
+    //imprimindo
+    printf("uhuuu");
+    
+    //pausando
+    system ("pause");
+
+}
+

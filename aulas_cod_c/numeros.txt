@@ -1,0 +1,54 @@
+//tamanho de campo com inteiros
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+
+	int lapis=45, borrachas=2345, caneta=420, cadernos=8, fitas=13050;
+	
+	printf("\nLapis     %12d",lapis);
+	printf("\nBorrachas %12d",borrachas);
+	printf("\nCadernos  %12d",cadernos);
+	printf("\nFitas     %12d",fitas);
+	
+	system("PUSE");
+	return 0;
+}
+////////////////////////////////////////////////////////////////////
+
+//tamanho de campo com Float
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+
+	float lapis=45.875, borrachas=234.542, caneta=42.036, cadernos=8.0, fitas=13.05;
+	
+	printf("\nLapis       %12.2f",lapis);
+	printf("\nBorrachas   %12.2f",borrachas);
+	printf("\nCadernos    %12.2f",cadernos);
+	printf("\nFitas       %12.2f",fitas);
+	
+	system("PUSE");
+	return 0;
+}
+//////////////////////////////////////////////////////////////////////////
+//tamanho de campo de float
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+
+
+	
+	printf("%4.2f\n",3456.78);
+	printf("%3.2f\n",3456.78);
+	printf("%3.1f\n",3456.78);
+	printf("%10.2f\n",3456.78);
+	
+	system("PUSE");
+	return 0;
+}

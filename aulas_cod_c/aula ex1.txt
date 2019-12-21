@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int n;
+    n = 2;
+    printf("valor=%d, endereco=%p\n", n, &n);
+    system ("pause");
+    return 0;
+}
+

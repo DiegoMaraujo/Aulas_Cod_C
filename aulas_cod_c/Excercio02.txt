@@ -1,0 +1,45 @@
+
+#include <stdio.h>
+int main()
+{
+    int reajuste = 10;
+    
+    printf("o reajuste foi de %d%% \n",reajuste);
+    printf("\n%d",65);
+    printf("\n%x",65);
+    printf("\n%o",65);
+    printf("\n%c",65);
+    
+
+    system("pause");
+    return 0;
+}
+//////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+int main()
+{
+    float p1,p2,p3,p4;
+    double media;
+    
+    printf("\n Digite as 4 notas: \n");
+    scanf("%f%f%f%f",&p1,&p2,&p3,&p4);
+    media = (p1+p2+p3+p4) / 4.0;
+    printf("\n Media: %.2f\n",media);
+    system("PAUSE");
+    return 0;
+}
+///////////////////////////////////////////
+//enderecamento da memoria
+//p ponteiro da memorial fisica
+
+# include <stdio.h>
+# include <stdlib.h>
+
+void main(){
+	int n;
+	n =2;
+	printf("valor=%d, endereco=%p\n",n,&n);
+	system("PAUSE");
+	return 0;
+}
